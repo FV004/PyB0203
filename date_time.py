@@ -1,3 +1,3 @@
 from datetime import datetime as dt
-time = input('Enter the time : ')
-print(dt.strptime(time,'%m-%d-%Y').date())
+date_str = input('Enter the date : ')
+print(dt.strptime(date_str,'%m-%d-%Y').date())
